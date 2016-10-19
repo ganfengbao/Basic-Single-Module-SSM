@@ -24,6 +24,10 @@
 
 真实姓名：${user.sysUserRealName}
 
+<br />
+
+密码：${user.sysUserLoginPassword}
+
 </body>
 </html>
 

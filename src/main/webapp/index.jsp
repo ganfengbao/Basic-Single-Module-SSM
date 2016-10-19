@@ -12,11 +12,6 @@
 </head>
 <body>
 
-
-<h2>
-    <a href="http://code.YouMeek.com" target="_blank">Hello YouMeek</a>
-</h2>
-
 <br>
 
 <a href="/sysUserController/showUserToJspById/1" target="_blank">查询用户信息并跳转到一个JSP页面</a>
@@ -24,6 +19,14 @@
 <br>
 
 <a href="/sysUserController/showUserToJSONById/1" target="_blank">查询用户信息并直接输出JSON数据</a>
+
+<br />
+
+<a href="login" target="_blank">跳转到登录模块</a>
+
+<br />
+
+<a href="register" target="_blank">跳转到注册模块</a>
 
 </body>
 </html>

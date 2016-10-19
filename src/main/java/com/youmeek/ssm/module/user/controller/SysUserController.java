@@ -35,8 +35,7 @@ public class SysUserController {
 		SysUser user = sysUserService.getById(userId);
 		return user;
 	}
-	
-	
+
 	@RequestMapping("/test-logback")
 	@ResponseBody
 	public Date testLogback(){
@@ -47,7 +46,7 @@ public class SysUserController {
 		LOG.error("-----------------------------------error");
 		return new Date();
 	}
-	
+
 
 
 
